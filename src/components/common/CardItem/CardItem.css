@@ -1,12 +1,21 @@
 .basket__item{
     display: flex;
-    height: calc(250/1440*100vw);
+    min-height: calc(250/1440*100vw);
     overflow: hidden;
     width: 100%;
 
 
 }
-
+@media (max-width: 720px){
+    .basket__item{
+        display: flex;
+        flex-direction:column;
+        min-height: calc(425/425*100vw);
+        margin-bottom: calc(35/425*100vw);
+        
+    }
+    
+}
 
 .basket__imgs{
     
@@ -15,7 +24,14 @@
     width: calc(250/1440*100vw);
     height: calc(230/1440*100vw);
 }
-
+@media (max-width: 720px){
+    .basket__imgs{
+    margin: 0 auto;
+        width: calc(250/425*100vw);
+        height: calc(130/425*100vw);
+    }
+    
+}
 .basket__img{
     object-fit: contain ;
     width: 100%;
@@ -35,6 +51,13 @@
     
     color: #000000;
 }
+@media (max-width: 720px){
+    .basket__title{
+
+        font-size: calc(22/425*100vw);
+        line-height: calc(26/425*100vw);
+    }
+}
 .basket__description{
     font-family: 'Roboto';
     font-style: normal;
@@ -46,7 +69,12 @@
     
     color: #838383;
 }
-
+@media (max-width: 720px){
+    .basket__description{
+        font-size: calc(18/425*100vw);
+        line-height: calc(21/425*100vw);
+    }
+}
 .basket__scores{
     margin: 0 calc(15/1440*100vw);
     display: flex;
@@ -58,7 +86,15 @@
     
     color: #000000;
 }
+@media (max-width: 720px){
+    .basket__scores{
+        margin: calc(20/425*100vw) calc(15/425*100vw);
+        
+        font-size: calc(20/425*100vw);
+        line-height: calc(23/425*100vw);
 
+    }
+}
 .basket__scores-minus{
     
 }
@@ -67,12 +103,28 @@
     border: 1px solid #FF8F52;
     padding: calc(8/1440*100vw) calc(6/1440*100vw);
 }
+@media (max-width: 720px){
+    .basket__scores-minus button{
+        padding: calc(8/425*100vw) calc(6/425*100vw);
+    }
+}
 .basket__scores-minus button img{
     
-margin:calc(7/1440*100vw) auto 0px;
+    margin:calc(7/1440*100vw) auto 0px;
+}
+@media (max-width: 720px){
+    .basket__scores-minus button img{
+    
+        margin:calc(7/425*100vw) auto 0px;
+    }
 }
 .basket__scores-number{
     padding: calc(5/1440*100vw);
+}
+@media (max-width: 720px){
+    .basket__scores-number{
+        padding: calc(5/425*100vw);
+    }
 }
 .basket__scores-plus{
     
@@ -83,6 +135,12 @@ margin:calc(7/1440*100vw) auto 0px;
     padding: calc(10/1440*100vw) calc(6/1440*100vw);
     
 }
+@media (max-width: 720px){
+    .basket__scores-plus button{
+        padding: calc(10/425*100vw) calc(6/425*100vw);
+        
+    }
+}
 .basket__scores-plus button img{
     
     display:block;
@@ -90,7 +148,7 @@ margin:calc(7/1440*100vw) auto 0px;
 }
 .basket__price{
     position: relative;
-    margin-top: calc(4calc(43/1440*100vw)/1440*100vw);
+    margin-top: calc(4/1440*100vw);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -99,15 +157,40 @@ margin:calc(7/1440*100vw) auto 0px;
     
     color: #000000;
 }
+@media (max-width: 720px){
+    .basket__price{
+        position: relative;
+        margin-top: calc(20/425*100vw);
+
+        font-size: calc(20/425*100vw);
+        line-height: calc(23/425*100vw);
+
+    }
+}
 .basket__price-item{
     position: absolute;
 }
 .basket__cross{
     margin:0 0 0 calc(100/1440*100vw);
 }
+@media (max-width: 720px){
+    .basket__cross{
+        margin:0 0 0 calc(300/425*100vw);
+        width: calc(40/425*100vw);
+    }
+}
 
 .basket__cross img{
     margin-top: calc(4/1440*100vw);
     border-radius: 50%;
     border: 1px solid #000;
+}
+@media (max-width: 720px){
+    .basket__cross img{
+        width: 100%;
+        margin-top:0;
+        
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
 }

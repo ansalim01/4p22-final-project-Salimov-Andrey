@@ -4,8 +4,6 @@ import React from 'react';
 
 
 function Filtering({ obj, value, onClickCategory }) {
-
-    console.log(value);
     // const onClickCategory = (i) => {
     //     setActivIndex(i)
     // }

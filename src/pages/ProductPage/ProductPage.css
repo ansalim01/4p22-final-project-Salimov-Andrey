@@ -2,13 +2,25 @@
 .main__product-items{
     display: flex;
 }
-
+@media (max-width:720px) {
+    .main__product-items{
+        display:block;
+    }
+  }
 .main__product-imgs{
     width: calc(350/1440*100vw);
     height: calc(350/1440*100vw);
     
 }
-
+@media (max-width:720px) {
+    .main__product-imgs{
+        margin: 0 auto;
+        width: calc(350/425*100vw);
+        height: calc(350/425*100vw);
+        
+    }
+  }
+  
 .main__product-img{
     width: 100%;
     height: 100%;
@@ -21,6 +33,18 @@
     margin-bottom: calc(20/1440*100vw);
 }
 
+@media (max-width:720px) {
+    .main__product-body>*:not(:last-child){
+        margin-bottom: calc(20/425*100vw);
+    }
+}
+@media (max-width:720px) {
+    .main__product-body>:last-child{
+        margin-bottom: calc(20/425*100vw);
+    }
+}
+  
+
 .main__product-title{
     font-family: 'Roboto';
 font-style: normal;
@@ -32,6 +56,14 @@ line-height: calc(26/1440*100vw);
 
 color: #000000;
 }
+
+@media (max-width:720px) {
+    .main__product-title{
+    font-size: calc(22/425*100vw);
+    line-height: calc(26/425*100vw);
+
+    }
+}
 .main__product-description{font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -40,8 +72,15 @@ color: #000000;
     /* or 159% */
     
     
-    color: #838383;}
+    color: #838383;
 
+}
+@media (max-width:720px) {
+    .main__product-description{font-family: 'Roboto';
+        font-size: calc(22/425*100vw);
+        line-height: calc(35/425*100vw);
+    }
+}
 .main__product-price{
     font-family: 'Roboto';
 font-style: normal;
@@ -52,4 +91,10 @@ line-height: calc(26/1440*100vw);
 
 
 color: #000000;
+}
+@media (max-width:720px) {
+    .main__product-price{
+    font-size: calc(22/425*100vw);
+    line-height: calc(26/425*100vw);
+    }
 }

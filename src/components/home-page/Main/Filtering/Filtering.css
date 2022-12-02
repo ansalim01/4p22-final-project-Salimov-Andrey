@@ -1,6 +1,12 @@
 .filtering-items{
     display: flex;
 }
+@media (max-width: 720px){
+    .filtering-items{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
 
 .filtering-item{
     font-family: 'Roboto';
@@ -15,11 +21,23 @@
 
     cursor:pointer;
 }
+@media (max-width: 720px){
+    .filtering-item{
+        
+        font-size: calc(18/425*100vw);
+        line-height: calc(21/425*100vw);
+        padding: calc(5/425*100vw) calc(25/425*100vw);
+    }
+}
 
 .filtering-item:not(:last-child){
     margin-right: calc(15/1440*100vw);
 }
-
+@media (max-width: 720px){
+    .filtering-item:not(:last-child){
+        margin-right:0;
+    }
+}
 .filtering-active{
     border-radius: calc(15/1440*100vw);
     background: #000;

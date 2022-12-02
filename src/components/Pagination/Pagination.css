@@ -1,6 +1,11 @@
 .Pagination__item{
     margin: calc(10/1440*100vw) 0;
 }
+@media (max-width: 720px){
+    .Pagination__item{
+        margin: calc(10/425*100vw) 0;
+    }
+}
 .Pagination__item li {
     display: inline-block;
     /* 
@@ -34,7 +39,15 @@
     margin-right: calc(10/1440*100vw);
     cursor: pointer;
 }
+@media (max-width: 720px){
+    .Pagination__item li a {
+       line-height:calc(43/425*100vw);
+        width: calc(45/425*100vw);
+        height: calc(45/425*100vw);
+        margin-right: calc(10/425*100vw);
 
+    }
+}
 .Pagination__item .selected a{
     background-color:#f56618 ;
     color: aliceblue;
