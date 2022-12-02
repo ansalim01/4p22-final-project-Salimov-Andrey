@@ -173,7 +173,6 @@ function ContactsPage() {
                 </div>
             </main >
             <Footer />
-
         </div >
 
     )
