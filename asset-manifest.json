@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-salimov-andrey/static/css/main.073c9b0a.css",
-    "main.js": "/4p22-final-project-salimov-andrey/static/js/main.81df9baa.js",
-    "static/js/787.ef53442c.chunk.js": "/4p22-final-project-salimov-andrey/static/js/787.ef53442c.chunk.js",
-    "static/media/logo.svg": "/4p22-final-project-salimov-andrey/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/4p22-final-project-salimov-andrey/static/css/main.ca081f2e.css",
+    "main.js": "/4p22-final-project-salimov-andrey/static/js/main.e8b707d5.js",
+    "static/media/atMail.svg": "/4p22-final-project-salimov-andrey/static/media/atMail.15ba81e1ddb7d5c639d0a32563b6fb0d.svg",
+    "static/media/Vector.svg": "/4p22-final-project-salimov-andrey/static/media/Vector.a6131dcf5d3988cdf7524524997f6c37.svg",
+    "static/media/shop.svg": "/4p22-final-project-salimov-andrey/static/media/shop.ec4f57b70a45bf988350f2112022af7a.svg",
+    "static/media/Search.svg": "/4p22-final-project-salimov-andrey/static/media/Search.2c825322d7d278ae4e92f52e8806c2d1.svg",
     "index.html": "/4p22-final-project-salimov-andrey/index.html",
-    "main.073c9b0a.css.map": "/4p22-final-project-salimov-andrey/static/css/main.073c9b0a.css.map",
-    "main.81df9baa.js.map": "/4p22-final-project-salimov-andrey/static/js/main.81df9baa.js.map",
-    "787.ef53442c.chunk.js.map": "/4p22-final-project-salimov-andrey/static/js/787.ef53442c.chunk.js.map"
+    "static/media/phone.svg": "/4p22-final-project-salimov-andrey/static/media/phone.0411e8d9f37e692f994c1eee65187a66.svg",
+    "static/media/human1.svg": "/4p22-final-project-salimov-andrey/static/media/human1.bb8543a5beb951dfe8c6c619efae8f6d.svg",
+    "static/media/location.svg": "/4p22-final-project-salimov-andrey/static/media/location.8289c4cdf4c5debe9ebc37d4eb796ed2.svg",
+    "static/media/plus.svg": "/4p22-final-project-salimov-andrey/static/media/plus.adcac0776335130c30549a6101cf88ad.svg",
+    "static/media/Close.svg": "/4p22-final-project-salimov-andrey/static/media/Close.5e61e14bba09af93200be7ae4d54af8f.svg",
+    "static/media/munys.svg": "/4p22-final-project-salimov-andrey/static/media/munys.3b99c5f173de3b6a19ae16db7a435a50.svg",
+    "main.ca081f2e.css.map": "/4p22-final-project-salimov-andrey/static/css/main.ca081f2e.css.map",
+    "main.e8b707d5.js.map": "/4p22-final-project-salimov-andrey/static/js/main.e8b707d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.81df9baa.js"
+    "static/css/main.ca081f2e.css",
+    "static/js/main.e8b707d5.js"
   ]
 }
