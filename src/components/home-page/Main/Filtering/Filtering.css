@@ -6,10 +6,10 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: calc(18/1440*100vw);
+    line-height: calc(21/1440*100vw);
     /* identical to box height */
-    padding: 5px 25px;
+    padding: calc(5/1440*100vw) calc(25/1440*100vw);
     
     color: #000000;
 
@@ -17,11 +17,11 @@
 }
 
 .filtering-item:not(:last-child){
-    margin-right: 15px;
+    margin-right: calc(15/1440*100vw);
 }
 
 .filtering-active{
-    border-radius: 15px;
+    border-radius: calc(15/1440*100vw);
     background: #000;
     color:aliceblue;
 }

@@ -1,5 +1,5 @@
 .main{
-    margin-top: 25px;
+    margin-top: calc(25/1440*100vw);
     flex: 1 0 auto;
 }
 
@@ -9,6 +9,19 @@
 
 .product__container{}
 
+.product__title{
+margin: calc(30/1440*100vw) 0 calc(5/1440*100vw) 0;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: calc(32/1440*100vw);
+line-height: calc(38/1440*100vw);
+/* identical to box height */
+
+
+color: #000000;
+}
 
 .Filtering{}
 
@@ -18,9 +31,10 @@
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+font-size: calc(18/1440*100vw);
+line-height: calc(18/1440*100vw);
 /* identical to box height */
+margin: calc(10/1440*100vw) 0;
 
 
 color: #000000;

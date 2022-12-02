@@ -4,8 +4,8 @@
 }
 
 .main__product-imgs{
-    width: 350px;
-    height: 350px;
+    width: calc(350/1440*100vw);
+    height: calc(350/1440*100vw);
     
 }
 
@@ -18,15 +18,15 @@
 .main__product-body{}
 
 .main__product-body>*:not(:last-child){
-    margin-bottom: 20px;
+    margin-bottom: calc(20/1440*100vw);
 }
 
 .main__product-title{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
-line-height: 26px;
+font-size: calc(22/1440*100vw);
+line-height: calc(26/1440*100vw);
 /* identical to box height */
 
 
@@ -35,8 +35,8 @@ color: #000000;
 .main__product-description{font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: calc(22/1440*100vw);
+    line-height: calc(35/1440*100vw);
     /* or 159% */
     
     
@@ -46,8 +46,8 @@ color: #000000;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
-line-height: 26px;
+font-size: calc(22/1440*100vw);
+line-height: calc(26/1440*100vw);
 /* identical to box height */
 
 

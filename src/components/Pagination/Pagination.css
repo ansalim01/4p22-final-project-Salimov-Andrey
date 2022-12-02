@@ -1,5 +1,5 @@
 .Pagination__item{
-    margin: 10px 0;
+    margin: calc(10/1440*100vw) 0;
 }
 .Pagination__item li {
     display: inline-block;
@@ -25,13 +25,13 @@
     color: #FF8F52;
     display: inline-block;
    text-align: center;
-   line-height:43px;
-    width: 45px;
-    height: 45px;
+   line-height:calc(43/1440*100vw);
+    width: calc(45/1440*100vw);
+    height: calc(45/1440*100vw);
     /* padding: 10px; */
     border: 1px solid #FF8F52;
     border-radius: 30px;
-    margin-right: 10px;
+    margin-right: calc(10/1440*100vw);
     cursor: pointer;
 }
 

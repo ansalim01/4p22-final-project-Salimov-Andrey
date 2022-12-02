@@ -41,7 +41,7 @@ function CardProduct({ id, img, title, description, price }) {
                 <p className="product__card-description">{reductionText(description)}</p>
             </Link>
             <div className="product__card-price-butt">
-                <Link to={`products/${id}`} className="product__card-price">{price} р</Link>
+                <Link to={`products/${id}`} className="product__card-price">{price} $</Link>
                 {/* <ButtonAddToCart >Add to cart</ButtonAddToCart> */}
                 {/* id={id} img={img} title={title} description={description} price={price} */}
                 <button onClick={onClickAdd} className="product__card-button">

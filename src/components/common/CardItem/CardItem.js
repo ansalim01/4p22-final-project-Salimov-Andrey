@@ -48,7 +48,7 @@ function CardItem({ img, id, title, price, count, imageUrl, description }) {
             <div className="basket__price">
                 <div className="basket__price-item">
 
-                    {((price * 10) * (count * 10)) / 100}p</div>
+                    {((price * 10) * (count * 10)) / 100}$</div>
             </div>
             <div className="basket__cross"><img onClick={onClickRemove} src={Close} alt='Close'></img></div>
         </div>

@@ -1,6 +1,6 @@
 .basket__item{
     display: flex;
-    height: 250px;
+    height: calc(250/1440*100vw);
     overflow: hidden;
     width: 100%;
 
@@ -28,8 +28,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: calc(22/1440*100vw);
+    line-height: calc(26/1440*100vw);
     /* identical to box height */
     
     
@@ -39,8 +39,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: calc(18/1440*100vw);
+    line-height: calc(21/1440*100vw);
     /* identical to box height */
     
     
@@ -48,13 +48,13 @@
 }
 
 .basket__scores{
-    margin: 0 15px;
+    margin: 0 calc(15/1440*100vw);
     display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc(20/1440*100vw);
+    line-height: calc(23/1440*100vw);
     
     color: #000000;
 }
@@ -65,14 +65,14 @@
 .basket__scores-minus button{
     border-radius: 5px;
     border: 1px solid #FF8F52;
-    padding: 8px 6px;
+    padding: calc(8/1440*100vw) calc(6/1440*100vw);
 }
 .basket__scores-minus button img{
     
-margin:7px auto 0px;
+margin:calc(7/1440*100vw) auto 0px;
 }
 .basket__scores-number{
-    padding: 5px;
+    padding: calc(5/1440*100vw);
 }
 .basket__scores-plus{
     
@@ -80,7 +80,7 @@ margin:7px auto 0px;
 .basket__scores-plus button{
     border-radius: 5px;
     border: 1px solid #FF8F52;
-    padding: 10px 6px;
+    padding: calc(10/1440*100vw) calc(6/1440*100vw);
     
 }
 .basket__scores-plus button img{
@@ -90,12 +90,12 @@ margin:7px auto 0px;
 }
 .basket__price{
     position: relative;
-    margin-top: 4px;
+    margin-top: calc(4calc(43/1440*100vw)/1440*100vw);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc(20/1440*100vw);
+    line-height: calc(23/1440*100vw);
     
     color: #000000;
 }
@@ -103,11 +103,11 @@ margin:7px auto 0px;
     position: absolute;
 }
 .basket__cross{
-    margin:0 0 0 100px;
+    margin:0 0 0 calc(100/1440*100vw);
 }
 
 .basket__cross img{
-    margin-top: 4px;
+    margin-top: calc(4/1440*100vw);
     border-radius: 50%;
     border: 1px solid #000;
 }

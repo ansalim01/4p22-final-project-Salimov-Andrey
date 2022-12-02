@@ -76,12 +76,12 @@
 }
 
 .header__Linc-shop span{
-    margin: 0 5px;
+    margin: 0 calc(5/1440*100vw);
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-line-height: 23px;
+font-size: calc(20/1440*100vw);
+line-height: calc(20/1440*100vw);
 
 color: #000000;
     

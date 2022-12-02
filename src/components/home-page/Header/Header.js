@@ -17,8 +17,8 @@ function Header({ searchValue, setSearchValue }) {
                 <nav className="header__menu menu">
                     <ul className="menu__list">
                         <li className="menu__item"><NavLink to={`/`} className="menu__link">Home</NavLink></li>
-                        <li className="menu__item"><NavLink to={`/`} className="menu__link">Product</NavLink></li>
-                        <li className="menu__item"><NavLink to={`/`} className="menu__link">Pricing</NavLink></li>
+                        {/* <li className="menu__item"><NavLink to={`/`} className="menu__link">Product</NavLink></li>
+                        <li className="menu__item"><NavLink to={`/`} className="menu__link">Pricing</NavLink></li> */}
                         <li className="menu__item"><NavLink to={'/contacts'} className="menu__link">Contact</NavLink></li>
                     </ul>
                 </nav>
@@ -31,10 +31,10 @@ function Header({ searchValue, setSearchValue }) {
                     <Link to={`/basket`} href="" className='header__Linc-shop'><img src={imageShop} alt="" className='header__img header__img-shop' />
 
 
-                        <span>price {totalPrice}</span>
+                        <span>Price {totalPrice}</span>
 
 
-                        <span>quantity {totalCount}</span>
+                        <span>Quantity {totalCount}</span>
                     </Link>
                     {/* {items.length} */}
 

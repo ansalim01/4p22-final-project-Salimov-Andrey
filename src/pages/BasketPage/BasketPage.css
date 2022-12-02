@@ -1,11 +1,11 @@
 
 .main__container-BasketPage{
-    margin-top: 50px;
-    padding: 0 150px;
+    margin-top: calc(50/1440*100vw);
+    padding: 0 calc(150/1440*100vw);
 }
 
 .main__heder{
-    margin-bottom: 30px;
+    margin-bottom: calc(30/1440*100vw);
     display: flex;
     justify-content:space-between;
 }
@@ -14,8 +14,8 @@
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-line-height: 23px;
+font-size: calc(20/1440*100vw);
+line-height: calc(23/1440*100vw);
 
 color: #000000;
 
@@ -26,15 +26,15 @@ color: #000000;
 .main__heder-text{font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc(20/1440*100vw);
+    line-height: calc(23/1440*100vw);
     /* identical to box height */
     
     
     color: #838383;}
 
 .main__heder-img{
-    margin-left: 5px;
+    margin-left: calc(5/1440*100vw);
 }
 
 

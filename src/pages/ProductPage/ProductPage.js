@@ -69,7 +69,7 @@ function ProductPage({ id, title, price, img, description }) {
                             <div className="main__product-body">
                                 <div className="main__product-title">{product.title}</div>
                                 <div className="main__product-description">{product.description}</div>
-                                <div className="main__product-price">{product.price} p</div>
+                                <div className="main__product-price">{product.price} $</div>
                                 <button onClick={onClickAdd} className="product__card-button">
                                     <img src={Vector} alt="" />
                                     Add to cart {addedCount > 0 && <span> {addedCount}</span>}

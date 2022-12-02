@@ -66,7 +66,7 @@ function Main({ searchValue }) {
 
                 <div className="product">
                     <div className="product__container">
-                        <h2>Best selers</h2>
+                        <h2 className='product__title'>Product</h2>
                         <div className="product__card">
                             {
                                 // <AllProducts obj={objCategory}></AllProducts>
