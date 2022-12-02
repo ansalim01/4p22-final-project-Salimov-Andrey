@@ -1,0 +1,113 @@
+.basket__item{
+    display: flex;
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+
+
+}
+
+
+.basket__imgs{
+    
+    
+    overflow: hidden;
+    width: calc(250/1440*100vw);
+    height: calc(230/1440*100vw);
+}
+
+.basket__img{
+    object-fit: contain ;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+   
+}
+
+.basket__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.basket__description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #838383;
+}
+
+.basket__scores{
+    margin: 0 15px;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.basket__scores-minus{
+    
+}
+.basket__scores-minus button{
+    border-radius: 5px;
+    border: 1px solid #FF8F52;
+    padding: 8px 6px;
+}
+.basket__scores-minus button img{
+    
+margin:7px auto 0px;
+}
+.basket__scores-number{
+    padding: 5px;
+}
+.basket__scores-plus{
+    
+}
+.basket__scores-plus button{
+    border-radius: 5px;
+    border: 1px solid #FF8F52;
+    padding: 10px 6px;
+    
+}
+.basket__scores-plus button img{
+    
+    display:block;
+    margin:auto;
+}
+.basket__price{
+    position: relative;
+    margin-top: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+.basket__price-item{
+    position: absolute;
+}
+.basket__cross{
+    margin:0 0 0 100px;
+}
+
+.basket__cross img{
+    margin-top: 4px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}

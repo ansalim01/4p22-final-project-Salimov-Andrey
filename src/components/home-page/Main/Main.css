@@ -1,0 +1,38 @@
+.main{
+    margin-top: 25px;
+    flex: 1 0 auto;
+}
+
+.product{
+
+}
+
+.product__container{}
+
+
+.Filtering{}
+
+.Filtering__container{}
+
+.Filtering__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.Filtering__row{}
+
+
+.product__card{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
+}
+

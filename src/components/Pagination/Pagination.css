@@ -1,0 +1,41 @@
+.Pagination__item{
+    margin: 10px 0;
+}
+.Pagination__item li {
+    display: inline-block;
+    /* 
+   text-align: center;
+   line-height:42px;
+    width: 45px;
+    height: 45px;
+    
+    border: 1px solid #FF8F52;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer; 
+    */
+
+}
+.Pagination__item li a:hover {
+    background-color:#FF8F52 ;
+    color: aliceblue;
+ }
+.Pagination__item li a {
+    display: inline-block;
+    color: #FF8F52;
+    display: inline-block;
+   text-align: center;
+   line-height:43px;
+    width: 45px;
+    height: 45px;
+    /* padding: 10px; */
+    border: 1px solid #FF8F52;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Pagination__item .selected a{
+    background-color:#f56618 ;
+    color: aliceblue;
+}

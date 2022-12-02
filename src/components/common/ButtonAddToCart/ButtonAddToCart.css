@@ -1,0 +1,11 @@
+.product__card-button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+z-index: 5;
+color: #FF8F52;
+}

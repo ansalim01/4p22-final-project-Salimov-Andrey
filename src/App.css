@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.wrapper{
+  padding-top:calc(30/1440*100vw) ;
+  display: flex;
+  flex-direction:column;
+  height: 100vh;
+}
+
+@media (max-width:720px) {
+  .wrapper{
+    padding-top:calc(10/720*100vw) ;
+  }
+}
+
+
+.main{
+  flex: 1 0 auto;
 }
