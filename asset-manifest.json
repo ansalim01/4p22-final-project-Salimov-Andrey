@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-salimov-andrey/static/css/main.13702094.css",
-    "main.js": "/4p22-final-project-salimov-andrey/static/js/main.3159ef33.js",
+    "main.css": "/4p22-final-project-salimov-andrey/static/css/main.03c034fa.css",
+    "main.js": "/4p22-final-project-salimov-andrey/static/js/main.28b101d2.js",
     "static/media/atMail.svg": "/4p22-final-project-salimov-andrey/static/media/atMail.15ba81e1ddb7d5c639d0a32563b6fb0d.svg",
     "static/media/Vector.svg": "/4p22-final-project-salimov-andrey/static/media/Vector.a6131dcf5d3988cdf7524524997f6c37.svg",
     "static/media/shop.svg": "/4p22-final-project-salimov-andrey/static/media/shop.ec4f57b70a45bf988350f2112022af7a.svg",
@@ -13,11 +13,11 @@
     "static/media/plus.svg": "/4p22-final-project-salimov-andrey/static/media/plus.adcac0776335130c30549a6101cf88ad.svg",
     "static/media/Close.svg": "/4p22-final-project-salimov-andrey/static/media/Close.5e61e14bba09af93200be7ae4d54af8f.svg",
     "static/media/munys.svg": "/4p22-final-project-salimov-andrey/static/media/munys.3b99c5f173de3b6a19ae16db7a435a50.svg",
-    "main.13702094.css.map": "/4p22-final-project-salimov-andrey/static/css/main.13702094.css.map",
-    "main.3159ef33.js.map": "/4p22-final-project-salimov-andrey/static/js/main.3159ef33.js.map"
+    "main.03c034fa.css.map": "/4p22-final-project-salimov-andrey/static/css/main.03c034fa.css.map",
+    "main.28b101d2.js.map": "/4p22-final-project-salimov-andrey/static/js/main.28b101d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.13702094.css",
-    "static/js/main.3159ef33.js"
+    "static/css/main.03c034fa.css",
+    "static/js/main.28b101d2.js"
   ]
 }
