@@ -233,6 +233,16 @@ position: absolute;
     position: relative;
 }
 
+.file__item-name{
+    font-size: calc(16/1440*100vw);
+    margin-top: calc(15/1440*100vw);
+}  
+@media (max-width:720px) {
+    .file__item-name{
+        font-size: calc(16/425*100vw);
+        margin-top: calc(15/425*100vw);
+    } 
+}
    
 
 .file__input {

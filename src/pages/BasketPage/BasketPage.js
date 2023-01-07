@@ -30,9 +30,9 @@ function BasketPage() {
                         </button>
 
                     </div>
-                    <div className="main__basket">
+                    <div className="main__basket" >
                         {
-                            item.map(item => <CardItem ket={item.id} {...item}></CardItem>)
+                            item.map(item => <CardItem key={item.id} {...item}></CardItem>)
                         }
 
                     </div>

@@ -10,7 +10,7 @@ function CardItem({ img, id, title, price, count, imageUrl, description }) {
     const dispatch = useDispatch();
     const onClickPlus = () => {
         dispatch(addItem({
-            id,
+            id
         }),
         )
     };

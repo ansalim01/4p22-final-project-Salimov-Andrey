@@ -149,3 +149,10 @@ color: #000000;
     line-height: calc(20/425*100vw);
     }
 }
+
+.header__price{
+    /* position: relative; */
+}
+.header__count{
+    /* position: relative; */
+}

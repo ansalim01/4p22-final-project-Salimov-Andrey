@@ -31,10 +31,10 @@ function Header({ searchValue, setSearchValue }) {
                     <Link to={`/basket`} href="" className='header__Linc-shop'><img src={imageShop} alt="" className='header__img header__img-shop' />
 
 
-                        <span>Price {totalPrice}</span>
+                        <span className='header__price'>Price {totalPrice}</span>
 
 
-                        <span>Quantity {totalCount}</span>
+                        <span className='header__count'>Quantity {totalCount}</span>
                     </Link>
                     {/* {items.length} */}
 

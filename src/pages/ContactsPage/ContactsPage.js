@@ -88,6 +88,7 @@ function ContactsPage() {
             file: file,
             message: message,
         }
+        const nameFile = file
 
         console.log(obj, 'Отправлена форма.');
 
@@ -150,6 +151,7 @@ function ContactsPage() {
                             <div className="form__item">
                                 <div className="from__label">Прикрепить фото</div>
                                 <div className="file">
+                                    {file ? <div className='file__item-name'>{file}</div> : ''}
                                     <div className="file__item">
 
                                         <input onChange={(e) => fileHandler(e)} id='formImaga' accept='.jpg, .png, .gif' type="file" name='image' className='file__input' />
